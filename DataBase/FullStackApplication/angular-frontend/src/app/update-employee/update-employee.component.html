@@ -1,0 +1,32 @@
+<div class="col-md-8 offset-m">
+    <h2> Update Employee</h2>
+    <!-- ngSubmit is an event that listens to post requests -->
+    <!-- onSubmit() is a event handler that is used to listen to an event -->
+    <form (ngSubmit) = "onSubmit()">
+    
+        <div class="form-group">
+            <label> First Name </label>
+            <input type="text" class="form-control" id="firstName"       
+                [(ngModel)] = "employee.firstName" name="firstName">
+        </div>
+    
+        <div class="form-group">
+            <label> Last Name </label>
+            <input type="text" class="form-control" id="lastName"       
+                [(ngModel)] = "employee.lastName" name="lastName">
+        </div>
+    
+        <div class="form-group">
+            <label> Email </label>
+            <input type="text" class="form-control" id="email"       
+                [(ngModel)] = "employee.email" name="email">
+        </div>
+    
+        <button class="btn btn-dark wrapper" type="submit"> Submit </button>
+    
+    </form>
+    </div>
+    
+       
+    
+    

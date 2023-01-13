@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+/* @import "~bootstrap/dist/css/bootstrap.min.css"; */
+
+.footer{
+    
+    position: absolute;
+    bottom: 0; /*this puts whaever content to the bottom of the page */
+    width: 100%; /*whatever content is ther will occupy 100% of the container */
+    height: 70px;
+    background-color: black;
+    padding-top: 15px;
+    text-align: center; 
+    color:white; /*this is the colour for the text */
+}
+
+ .wrapper{
+     margin: 15px auto;
+     text-align: center;
+     position: relative;
+
+ }
+
+ .customfooter
+ {
+     /*this footer stays fixed as the page moves */
+     position: fixed;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     height: 70px;
+     background-color: black;
+     text-align: center;
+     color: white;
+ }
+
+ .backgroundcolor
+ {
+    background-color: rgba(17,24,39)
+ }
+
+
+
